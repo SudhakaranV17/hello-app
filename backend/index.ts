@@ -10,6 +10,6 @@ connectDb()
     });
   })
   .catch((error) => {
-    console.log("❌ DATABASE CONNECTION FAILED", error);
+    console.log("❌ SERVER STARTUP FAILED", error);
     process.exit(1);
   });
